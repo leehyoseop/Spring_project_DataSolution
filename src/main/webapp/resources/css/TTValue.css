@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "SBugroM";
+	src: url("../font/SBugroM.ttf");
+}
+
+#titleTbl {
+	font-size: 45pt;
+	display: block;
+}
+
+h1 {
+	font-family: "SBugroB";
+	text-shadow: 3px 3px 3px #FFFFFF;
+	color: red;
+}
+
+#title {
+	position: absolute;
+	width: 99%;
+	margin-top: 13%;
+}

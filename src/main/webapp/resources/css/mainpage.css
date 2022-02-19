@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "SBugroL";
+	src: url("../font/SBugroL.ttf");
+}
+
+@font-face {
+	font-family: "SBugroB";
+	src: url("../font/SBugroB.ttf");
+}
+
+#totalTbl {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#loginTbl {
+	border-color: white;
+	border-radius: 5px;
+	border-width: 3px;
+	position: fixed;
+	transition: all 0.5s ease-out;
+	right: -247px;
+	background-color: #0F0F0F;
+}
+
+#loginIcon {
+	padding-top: 5px;
+}
+
+#login {
+	border: solid 3px white;
+	border-radius: 5px 5px 0px 5px;
+}
+
+h1 {
+	font-family: "SBugroB";
+	color: white;
+	text-align: center;
+}
+
+#loginTd {
+	width: "300px";
+	height: "300px";
+	padding-top: 19px;
+	border: solid 3px white;
+	border-radius: 0px 5px 5px 5px;
+	font-family: "SBugroL";
+}
+
+.id {
+	color: white;
+	font-family: "SBugroB";
+	margin-left: 10px;
+}
+
+.pw {
+	color: white;
+	font-family: "SBugroB";
+	margin-left: 10px;
+}
+
+.lbt {
+	font-family: "SBugroB";
+	display: block;
+}
+
+.sgbt {
+	font-family: "SBugroB";
+	display: block;
+}
+
+#content {
+	font-size: 25pt;
+	color: white;
+	font-family: "SBugroL";
+	margin-bottom: 20%;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	font-family: "SBugroL";
+	text-align: center;
+	color: white;
+	margin: 3px;
+}
+
+.icon1 {
+	position: absolute; /* ?가장 가까운 위치에 있는 조상 요소를 기준으로 배치*/
+	top: 43%; /* 위에서 40% 떨어짐 */
+	margin-left: 21.5%; /* 가로너비 100%에서 25%만큼 왼쪽에서 떨어짐 */
+	margin-right: 78.5%
+}
+
+.icon2 {
+	position: absolute;
+	top: 43%;
+	margin-left: 36.5%;
+	margin-right: 63.5%
+}
+
+.icon3 {
+	position: absolute;
+	top: 43%;
+	margin-left: 51.5%;
+	margin-right: 48.5%
+}
+
+.icon4 {
+	position: absolute;
+	top: 43%;
+	margin-left: 66.5%;
+	margin-right: 33.5%
+}
+
+.icon5 {
+	position: absolute;
+	top: 65%;
+	margin-left: 29%;
+	margin-right: 71%
+}
+
+.icon6 {
+	position: absolute;
+	top: 65%;
+	margin-left: 44%;
+	margin-right: 56%
+}
+
+.icon7 {
+	position: absolute;
+	top: 65%;
+	margin-left: 59%;
+	margin-right: 41%
+}
+
+button {
+	border-radius: 5px;
+}

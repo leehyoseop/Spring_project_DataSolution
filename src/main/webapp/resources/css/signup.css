@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@font-face{
+	font-family: "SBugroL";
+	src: url("../font/SBugroL.ttf");
+}
+
+@font-face{
+	font-family: "SBugroB";
+	src: url("../font/SBugroB.ttf");
+}
+
+.hbt {
+	font-family: "SBugroB";
+	border: none;
+	display: block;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+}
+
+.categorybt {
+	width: 30px;
+	height: 30px;
+}
+
+#totalTbl {
+	margin: auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+#signupTbl {
+	border-collapse: collapse;
+	border-color: white;
+	border-radius: 5px;
+	border-width: 3px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#signupTd {
+	width:"300px";	
+	height:"300px";
+	color: white;
+	font-family: "SBugroB";
+	padding-top: 0px;
+}
+
+h1 {
+	font-family: "SBugroL";
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-family: "SBugroL";
+    font-size: 23px;
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 2px;
+}
+	
+.sign {
+	color: white;
+	font-family: "SBugroB";
+}
+
+input {
+	margin-left: 15px;
+	height: 25px;
+}
+
+button {
+	font-family: "SBugroB";
+	display: block;
+	margin: auto;
+}

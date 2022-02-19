@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@font-face{
+	font-family: "SBugroL";
+	src: url("../font/SBugroL.ttf");
+}
+
+@font-face{
+	font-family: "SBugroB";
+	src: url("../font/SBugroB.ttf");
+}
+
+.hbt {
+	font-family: "SBugroB";
+	border: none;
+	display: block;
+	background-color: #EAEAEA;
+}
+
+.categorybt {
+	width: 30px;
+	height: 30px;
+}
+
+.categorybt1 {
+	width: 38px;
+	height: 38px;
+}
+
+#mapdivTbl {
+	border-collapse: collapse;
+	float: left;
+	margin-top: 7px;
+	margin-left: 110px;
+}
+
+#map {
+	border-radius: 15px;
+}
+
+#divTbl {
+	border-collapse: collapse;
+	float: right;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+#chartContainer {
+	width: 800px;
+	height: 550px;
+}

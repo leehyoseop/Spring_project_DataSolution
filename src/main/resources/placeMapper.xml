@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.TTValue.main.place.PlaceMapper">
+	<insert id="placefunc" parameterType="com.TTValue.main.place.Place">
+		insert into Place values(#{id}, #{day}, #{category}, #{place_name}, #{lat}, #{lng})
+	</insert>
+	
+	<select id="searchPlacefunc" resultType="com.TTValue.main.place.Place">
+		select * from Place where id = #{id}
+	</select>
+	
+	<select id="jsonPlacefunc" resultType="com.TTValue.main.place.Place">
+		select id,day,category,place_name,lat,lng from Place where id = #{id}
+	</select>
+	
+</mapper>
